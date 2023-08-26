@@ -21,7 +21,7 @@ function pregunta(pregunta) {
 }
 
 
-let path = "usuario.jsom"
+let path = "usuario.json"
 const crearUsuario = async (path) => {
     let usuario = {};
     try {
@@ -33,4 +33,4 @@ const crearUsuario = async (path) => {
       console.log(err);
     }
   };
-  crearUsuario("usuario");
+  crearUsuario("usuario.json");
